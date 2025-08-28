@@ -26,7 +26,7 @@ This is your opportunity to make AI answers **legally reliable** and bring real-
 AI assistants are powerful—but in law, **accuracy and trust** are non-negotiable.  
 Your mission: build a solution that guarantees AI-generated answers are always grounded in **Swiss federal legislation**.  
 
-Today, our in-house AI Assistnat (Based on https://github.com/open-webui/open-webui )    already runs a hybrid RAG pipeline (BM25 + embeddings + re-ranking). It’s good—but not yet robust enough for the scale and complexity of Swiss law. To move from “good” to “trusted”, we need **richer knowledge representations, explainable answers, and rock-solid grounding in the official legal corpus**.  
+Today, our in-house AI Assistnat (Based on [OpenWebUI](https://github.com/open-webui/open-webui) )    already runs a hybrid RAG pipeline (BM25 + embeddings + re-ranking). It’s good—but not yet robust enough for the scale and complexity of Swiss law. To move from “good” to “trusted”, we need **richer knowledge representations, explainable answers, and rock-solid grounding in the official legal corpus**.  
 
 Your goal is to deliver:  
 - **Reliable, explainable answers** to legal questions.  
@@ -59,11 +59,12 @@ Your goal is to deliver:
 ## Data
 You will have access to the **full corpus of Swiss federal legislation**, provided in multiple formats:
 
-- <a href="https://fedlex.data.admin.ch/sparqlendpoint" class="notion-link link" target="_blank" rel="noopener noreferrer">SPARQL endpoint</a>  
+- [SPARQL endpoint](https://fedlex.data.admin.ch/sparqlendpoint)  
 - Directly as HTML assets:  
-   • <a href="https://github.com/droid-f/fedlex" class="notion-link link" target="_blank" rel="noopener noreferrer">Metadata</a>  
-   • <a href="https://github.com/droid-f/fedlex-assets" class="notion-link link" target="_blank" rel="noopener noreferrer">Assets</a>  
-   Maintained as open source generously by **@Gamba** → https://github.com/gamba  
+   • [Metadata](https://github.com/droid-f/fedlex)  
+   • [Assets](https://github.com/droid-f/fedlex-assets)  
+   Maintained as open source generously by **@Gamba** → [github.com/gamba](https://github.com/gamba)  
+
 
 This dataset allows you to build retrieval pipelines, knowledge graphs, or agent-based solutions that stay consistent with the official law text.
 
