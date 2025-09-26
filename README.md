@@ -68,6 +68,11 @@ You will have access to the **full corpus of Swiss federal legislation**, provid
 
 This dataset allows you to build retrieval pipelines, knowledge graphs, or agent-based solutions that stay consistent with the official law text.
 
+
+## Decisions
+This could help to check court decisions. It has an api available in several languages.
+https://entscheidsuche.ch/
+
 ---
 
 ## Example Task – Input & Expected Output
